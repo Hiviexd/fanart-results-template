@@ -1,0 +1,7 @@
+.vscode/
+
+input/*
+!input/halloween-2026.csv
+
+output/*
+!output/2026-10-19-halloween-2026-fanart-contest-results.md
