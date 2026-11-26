@@ -2,7 +2,9 @@
 
 Creates a fanart news post template from results, see structure in `example.md`.
 
-If you don't know how to obtain a CSV of fanart contest results, then this tool isn't for you.
+This only sets up the banners, you still need to write the actual content.
+
+If you don't handle osu! fanart contests, this tool isn't for you.
 
 ## Run
 
@@ -15,8 +17,8 @@ node index.js halloween-2026
 
 ## Files
 
-- `config.json`: list of contests
-- `input/{slug}.csv`: results for that contest (already ranked, first row after the header is 1st place)
+- `config.json`: contest metadata
+- `input/{slug}.csv`: results for that contest
 - `example.md`: post skeleton. Only the `{{...}}` bits are replaced
 - `output/{date}-{title}.md`: generated draft, e.g. `2026-10-18-halloween-2026-fanart-contest-results.md`
 
