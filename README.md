@@ -2,7 +2,7 @@
 
 Creates a fanart news post template from results, see structure in `example.md`.
 
-This only sets up the banners, you still need to write the actual content.
+This only automates the banner setup and other predictable stuff, you still need to write the actual content.
 
 If you don't handle osu! fanart contests, this tool isn't for you.
 
